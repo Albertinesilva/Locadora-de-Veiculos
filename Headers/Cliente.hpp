@@ -1,9 +1,9 @@
 #ifndef CLIENTE_H
 #define CLIENTE_H
 #include <iostream>
-#include "Veiculo.h"
-#include "Usuario.h"
-#include "Aluguel.h"
+#include "Veiculo.hpp"
+#include "Usuario.hpp"
+#include "Aluguel.hpp"
 #include <string>
 #include <vector>
 using namespace std;

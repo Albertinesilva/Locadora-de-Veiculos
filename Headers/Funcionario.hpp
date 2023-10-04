@@ -1,10 +1,10 @@
 #ifndef FUNCIONARIO_H
 #define FUNCIONARIO_H
 #include <iostream>
-#include "Usuario.h"
-#include "Aluguel.h"
-#include "Cliente.h"
-#include "Veiculo.h"
+#include "Usuario.hpp"
+#include "Aluguel.hpp"
+#include "Cliente.hpp"
+#include "Veiculo.hpp"
 #include <vector>
 #include <string>
 using namespace std;

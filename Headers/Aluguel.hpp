@@ -1,11 +1,12 @@
 #ifndef ALUGUEL_H
 #define ALUGUEL_H
 #include <iostream>
-#include "Veiculo.h"
-#include "Cliente.h"
-#include "Funcionario.h"
+#include "Veiculo.hpp"
+#include "Cliente.hpp"
+#include "Funcionario.hpp"
 #include <string>
 #include <vector>
+
 using namespace std;
 
 #pragma once

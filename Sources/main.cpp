@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Usuario.h"
-#include "Aluguel.h"
+#include "../Headers/Usuario.hpp"
+#include "../Headers/Aluguel.hpp"
 #include <string>
 #include <vector>
 
