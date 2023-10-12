@@ -20,6 +20,9 @@ public:
 
     Usuario(string nome, string cpf, string endereco, string telefone);
 
+    static int getQuantidadeDeIdentificadores();
+    static void setQuantidadeDeIdentificadores(int quantidadeDeIdentificadores);
+
     int getId();
     void setId(int id);
 
@@ -33,7 +36,6 @@ public:
     void setEndereco(string endereco);
 
     string getTelefone();
-
     void setTelefone(string telefone);
 
     void mostrarUsuario();

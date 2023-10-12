@@ -11,6 +11,16 @@ Usuario::Usuario(string nome, string endereco, string cpf, string telefone) : no
     setId(Usuario::quantidadeDeIdentificadores);
 }
 
+int Usuario::getQuantidadeDeIdentificadores()
+{
+    return quantidadeDeIdentificadores;
+}
+
+void Usuario::setQuantidadeDeIdentificadores(int quantidadeDeIdentificadores)
+{
+    Usuario::quantidadeDeIdentificadores = quantidadeDeIdentificadores;
+}
+
 int Usuario::getId()
 {
     return this->id;
@@ -63,8 +73,7 @@ void Usuario::setEndereco(string endereco)
 
 void Usuario::mostrarUsuario()
 {
-    cout << "\n\t==========LISTA DE USUARIOS==========\n";
-
+    cout << "\n\tID: " << getId();  
     cout << "\n\tNome: " << getNome();
     cout << "\n\tCPF: " << getCPF();
     cout << "\n\tEndereço: " << getEndereco();
